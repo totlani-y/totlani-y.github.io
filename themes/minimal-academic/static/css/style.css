@@ -1,0 +1,58 @@
+:root {
+  --maxw: 720px;
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #2a4d6e;
+  --rule: #e6e6e6;
+  --bg: #ffffff;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.65;
+}
+.content { max-width: var(--maxw); margin: 0 auto; padding: 0 1.25rem 4rem; }
+.site-header { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1.25rem 1rem; }
+.nav { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; border-bottom: 1px solid var(--rule); padding-bottom: 1rem; }
+.site-title { font-weight: 700; font-size: 1.15rem; text-decoration: none; color: var(--ink); }
+.nav-links { list-style: none; display: flex; gap: 1.25rem; margin: 0; padding: 0; }
+.nav-links a { text-decoration: none; color: var(--muted); }
+.nav-links a:hover { color: var(--ink); }
+.nav-links a.active { color: var(--ink); font-weight: 700; }
+a { color: var(--accent); }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 1.5rem 0 0.5rem; }
+h2 { font-size: 1.4rem; margin-top: 2rem; }
+.post-meta { color: var(--muted); font-style: italic; margin-top: 0; }
+.post-list { list-style: none; padding: 0; }
+.post-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
+.post-list-date { color: var(--muted); font-size: 0.9rem; white-space: nowrap; }
+.site-footer { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+.resume-header { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+.btn-download {
+  display: inline-block;
+  font-family: -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #fff;
+  background: var(--accent);
+  padding: 0.45rem 0.9rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.btn-download:hover { opacity: 0.9; }
+.resume-content h2 { border-bottom: 1px solid var(--rule); padding-bottom: 0.25rem; }
+/* Comfortable spacing + horizontal scroll for wide display math */
+.katex-display { margin: 1.25rem 0; overflow-x: auto; overflow-y: hidden; padding: 0.25rem 0; }
+
+/* Small screens */
+@media (max-width: 600px) {
+  body { font-size: 17px; }
+  .nav { flex-direction: column; align-items: flex-start; }
+  .nav-links { gap: 1rem; flex-wrap: wrap; }
+  h1 { font-size: 1.6rem; }
+}

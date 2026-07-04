@@ -1,0 +1,31 @@
+baseURL = "/"
+title = "Yash Totlani"
+theme = "minimal-academic"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "Yash Totlani"
+  email = "totlaniyash4@gmail.com"
+  description = "Personal website and math blog"
+
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+[[menu.main]]
+  name = "Resume"
+  pageRef = "/resume/"
+  weight = 2
+[[menu.main]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 3
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [['$$', '$$'], ['\[', '\]']]
+      inline = [['$', '$'], ['\(', '\)']]

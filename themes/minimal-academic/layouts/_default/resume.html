@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="resume">
+  <div class="resume-header">
+    <h1>{{ .Title }}</h1>
+    <a class="btn-download" href="{{ "resume.pdf" | relURL }}" download>Download PDF</a>
+  </div>
+  <div class="resume-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
