@@ -1,7 +1,7 @@
 baseURL = "/"
-languageCode = "en-us"
 title = "Yash Totlani"
 theme = "minimal-academic"
+disableKinds = ["taxonomy", "term"]
 
 [params]
   author = "Yash Totlani"
