@@ -2,10 +2,13 @@
 title: "Home"
 ---
 
-# Hi, I'm Yash Totlani
+# Yash Totlani
 
-I'm a mathematician interested in number theory and geometry. I'm currently
-looking for opportunities where I can put that background to work. This site
-collects my resume and a blog where I write about mathematics I find beautiful.
+Mathematics and Physics undergraduate (B.S., Honors) at the University of Texas
+at Austin, graduating May 2026. I build AI/ML, LLM, and multi-agent systems
+across finance, cloud infrastructure, and scientific computing, combining
+first-principles mathematical rigor with practical engineering execution.
 
-[Read my resume](/resume/) · [Email me](mailto:totlaniyash4@gmail.com)
+I also write about mathematics on this site's [blog](/blog/).
+
+[Resume](/resume/) · [Email](mailto:totlaniyash4@gmail.com) · [LinkedIn](https://linkedin.com/in/yashtotlani/) · [GitHub](https://github.com/totlani-y)
