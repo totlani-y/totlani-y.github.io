@@ -4,10 +4,12 @@ title: "Home"
 
 # Yash Totlani
 
-Mathematics and Physics undergraduate (B.S., Honors) at the University of Texas
-at Austin, graduating May 2026. I build AI/ML, LLM, and multi-agent systems
-across finance, cloud infrastructure, and scientific computing, combining
-first-principles mathematical rigor with practical engineering execution.
+I graduated in May 2026 with a B.S. (Honors) in Mathematics and Physics from
+the University of Texas at Austin, and I'm an incoming Mathematics PhD student
+at the University of Virginia, starting August 2026. I build AI/ML, LLM, and
+multi-agent systems across finance, cloud infrastructure, and scientific
+computing, combining first-principles mathematical rigor with practical
+engineering execution.
 
 I also write about mathematics on this site's [blog](/blog/).
 
