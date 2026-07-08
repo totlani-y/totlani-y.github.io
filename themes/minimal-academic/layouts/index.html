@@ -1,5 +1,9 @@
 {{ define "main" }}
 <section class="home">
+  {{ with .Resources.GetMatch "website_photo.jpg" }}
+    {{ $banner := .Resize "1440x q85" }}
+    <img class="home-banner" src="{{ $banner.RelPermalink }}" width="{{ $banner.Width }}" height="{{ $banner.Height }}" alt="Yash Totlani">
+  {{ end }}
   {{ .Content }}
 </section>
 {{ end }}

@@ -49,6 +49,16 @@ h2 { font-size: 1.4rem; margin-top: 2rem; }
 /* Comfortable spacing + horizontal scroll for wide display math */
 .katex-display { margin: 1.25rem 0; overflow-x: auto; overflow-y: hidden; padding: 0.25rem 0; }
 
+/* Home banner photo */
+.home-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0.5rem 0 1.75rem;
+}
+.home h1 { margin-top: 0; }
+
 /* Small screens */
 @media (max-width: 600px) {
   body { font-size: 17px; }
