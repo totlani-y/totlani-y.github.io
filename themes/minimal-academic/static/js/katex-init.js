@@ -8,6 +8,8 @@ var mathMacros = {
   "\\C": "\\mathbb{C}",
   "\\F": "\\mathbb{F}",
   "\\A": "\\mathbb{A}",
+  "\\Pj": "\\mathbb{P}",
+  "\\Sym": "\\operatorname{Sym}",
   "\\OO": "\\mathcal{O}",
   "\\op": "\\mathcal{O}",
   "\\im": "\\operatorname{im}",
